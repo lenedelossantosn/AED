@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="horizontal" android:id="@+id/ScrollView">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_margin="15dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/def_icon"
+                android:id="@+id/imageButton"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Last Name"
+        android:ems="10"
+        android:id="@+id/lname" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="First Name"
+        android:ems="10"
+        android:id="@+id/fname" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Middle Name"
+        android:ems="10"
+        android:id="@+id/mname" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Birthdate"
+        android:ems="10"
+        android:id="@+id/bdate"
+        android:focusable="false"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Age"
+        android:ems="10"
+        android:id="@+id/age"
+        android:enabled="false"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Address"
+        android:ems="10"
+        android:id="@+id/address" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Email Address"
+        android:ems="10"
+        android:id="@+id/email" />
+
+    <Button
+        android:text="Save Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSaveProfile"
+        android:textColor="#a8dbff"
+        android:background="#025c7f"
+        android:visibility="invisible"/>
+
+</LinearLayout>
+</ScrollView>

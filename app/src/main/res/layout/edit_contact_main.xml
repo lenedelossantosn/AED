@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_weight="0.17"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/e_imageButton"
+            android:layout_width="95dp"
+            android:layout_height="85dp"
+            app:srcCompat="@color/colorAccent" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/e_lname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/e_fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/e_mname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Middle Name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/e_bdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Birthdate"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/e_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Age"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/e_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/e_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email Address"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/e_relationship"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Relationship"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/e_contactno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Contact No"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/btne_SaveProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Contact" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

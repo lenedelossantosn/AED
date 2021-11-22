@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_help_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:text="Default SMS Trigger Value"-->
+        <!--android:textColor="#68efad"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold" />-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MEDITATION"/>
+        <EditText
+            android:id="@+id/etDefMeditation"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Default Meditation Alert Value (0 to 100)"
+            android:inputType="number" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ATTENTION"/>
+        <EditText
+            android:id="@+id/etDefAttention"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Default Attention Alert Value (0 to 100)"
+            android:inputType="number" />
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cbEnabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enable SMS"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_message"
+        android:checkable="true"
+        android:title="Send SMS"
+        android:icon="@mipmap/ic_message_black_24dp"/>
+
+    <!--<item android:id="@+id/nav_location"-->
+        <!--android:checkable="true"-->
+        <!--android:title="GPS Notfication"-->
+        <!--android:icon="@mipmap/ic_place_black_24dp"/>-->
+
+    <!--<item android:id="@+id/nav_update"-->
+        <!--android:checkable="true"-->
+        <!--android:title="Update GPS Location"-->
+        <!--android:icon="@mipmap/ic_update_black_24dp"/>-->
+
+    <item android:id="@+id/nav_contact"
+        android:checkable="true"
+        android:title="Contacts"
+        android:icon="@mipmap/ic_person_add_black_24dp"/>
+
+    <item android:id="@+id/nav_userinfo"
+        android:checkable="true"
+        android:title="User Profile"
+        android:icon="@mipmap/ic_contacts_black_24dp"/>
+
+    <item android:id="@+id/nav_device"
+        android:checkable="true"
+        android:title="Connect to MindWave"
+        android:icon="@mipmap/ic_headset_black_24dp"/>
+
+    <item android:id="@+id/nav_settings"
+        android:checkable="true"
+        android:title="Alert Settings"
+        android:icon="@mipmap/ic_settings_black_24dp"/>
+
+    <item android:id="@+id/nav_epilepsy_info"
+        android:checkable="true"
+        android:title="About Epilepsy Info"
+        android:icon="@mipmap/ic_help_outline_black_24dp"/>
+
+
+  </menu>

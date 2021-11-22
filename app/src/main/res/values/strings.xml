@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">AED Notification</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="action_exit_apps">Exit Apps</string>
+    <string name="view_pager">Be SMART about EPILEPSY</string>
+    <string name="activity_epilepsy_info_exit">Epilepsy Info</string>
+    <string name="activity_first_aid_exit">First Aid Menu Exit</string>
+    <string name="activity_help_info">First Aid Activity</string>
+    <string name="activity_epilepsy_info">About Epilepsy Info</string>
+    <string name="activity_userinfo_exit">User Account</string>
+    <string name="activity_contact_exit">Contact Exit</string>
+    <string name="nextpage">Next Button</string>
+    <string name="prevpage">Previous Button</string>
+
+
+    <!-- DatabaseHelper-->
+
+    <item name="lname" type="id" />
+    <item name="fname" type="id" />
+    <item name="mname" type="id" />
+    <item name="bdate" type="id" />
+    <item name="age" type="id" />
+    <item name="address" type="id" />
+    <item name="email" type="id" />
+    <item name="btnSaveProfile" type="id" />
+
+    <!--New Contact-->
+    <item name="elname" type="id" />
+    <item name="efname" type="id" />
+    <item name="emname" type="id" />
+    <item name="ebdate" type="id" />
+    <item name="eage" type="id" />
+    <item name="eaddress" type="id" />
+    <item name="eemail" type="id" />
+    <item name="econtactno" type="id" />
+    <item name="erelationship" type="id" />
+    <item name="btneSaveProfile" type="id" />
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

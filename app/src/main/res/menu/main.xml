@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!-- Logout Icon for Settings -->
+    <item
+        android:id="@+id/action_exit_apps"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_exit_apps"
+        android:title="Exit Apps"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/activity_first_aid"
+        android:orderInCategory="10"
+        android:icon="@drawable/ic_first_aid"
+        android:title="First Aid"
+        app:showAsAction="always"/>
+
+
+</menu>
